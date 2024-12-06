@@ -19,12 +19,14 @@ public class _03_Variables {
         System.out.println(name + "님은 성적에 만족 하셨을까요? " + pass );
 
         double d = 0.123456789;
-        float f = 0.123456789F; // double 보다 작은 범위의 실수를 표현하는 변수의 자료형으로, 숫자 뒤에 F나, f를 입력해줘야 함
+        float f = 0.123456789F; 
+        // float = double 보다 작은 범위의 실수를 표현하는 변수의 자료형으로, 숫자 뒤에 F나, f를 입력해줘야 함
         System.out.println(d);
         System.out.println(f);
 
         int i = 1000000000;
-        long l = 100000000000L; // int 보다 큰 범위의 정수를 표현하는 변수의 자료형으로, 숫자 뒤에 L이나, l을 입력해줘야 함
+        long l = 100000000000L; 
+        // long = int 보다 큰 범위의 정수를 표현하는 변수의 자료형으로, 숫자 뒤에 L이나, l을 입력해줘야 함
         l = 1_000_000_000l;
         System.out.println(l);
 
